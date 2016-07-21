@@ -20,15 +20,15 @@ object Account_2 {
     amount
   }
 
-  def Change_PIN(x: Int): String = {
-    if (x >= 1000 && x <= 9999) {
-      PIN = x
-      return "PIN has been changed"
-    }
-    else{
-      return "Invalid PIN format. Please enter a number between 1000 and 9999"
-    }
-  }
+//  def Change_PIN(x: Int): String = {
+//    if (x >= 1000 && x <= 9999) {
+//      PIN = x
+//      return "PIN has been changed"
+//    }
+//    else{
+//      return "Invalid PIN format. Please enter a number between 1000 and 9999"
+//    }
+//}
   def checkPIN(x:Int): Boolean ={
     if (x == PIN){
       return true

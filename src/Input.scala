@@ -3,13 +3,13 @@
   */
 object Input {
 
-  def getusername() {
+  def getusername(): String = {
     print("please Enter user Name")
     var X: String = io.StdIn.readLine()
     return X
   }
 
-  def getpin() {
+  def getpin(): Int = {
     print("please Enter Pin")
     var Y: Int = io.StdIn.readInt()
     return Y
@@ -17,7 +17,7 @@ object Input {
 
 
   def Option(): Int = {
-    println("please select an option:\ntype 1 to view account balance\ntype 2 to deposit\ntype 3 to withdraw\ntype 4 to transfer to another account" )
+    println("please select an option:\ntype 1 to view account balance\ntype 2 to deposit\ntype 3 to withdraw\ntype 4 to transfer to another account")
     var i: Int = io.StdIn.readInt()
     if (0 < i && 5 > i) {
 
