@@ -4,9 +4,10 @@
 object Input
 
 {
-  print("please Enter user Name")
-  var X: String = io.StdIn.readLine()
+
   def getusername() {
+    print("please Enter user Name")
+    var X: String = io.StdIn.readLine()
     return X
   }
   print("please Enter Pin")
