@@ -3,7 +3,7 @@
   */
 object Account_2 {
   var amount: BigInt = 0
-  var user: String = "user1"
+  var user: String = "user2"
   var PIN: Int = 9999
 
   def view_amount(): BigInt = {
