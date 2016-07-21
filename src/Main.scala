@@ -3,11 +3,20 @@
   */
 object Main {
   def main(args: Array[String]): Unit = {
-    var acc :Int = 0
-    acc = Choose_account.Choose_account(Input.getusername())
-    if (acc == 0){
-      Input.invalid_username()
+    def user(): Int = {
+      var acc: Int = 0
+      acc = Account.user.indexOf(Input.getusername())
+      if (acc == -1){
+        println("invalid username")
+        user()
+      }
+      else{
+        return acc
+      }
     }
+    val acc = user()
+
+
 
   }
 }

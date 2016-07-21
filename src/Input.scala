@@ -8,10 +8,6 @@ object Input {
     var X: String = io.StdIn.readLine()
     return X
   }
-  def invalid_username(): Unit ={
-    println("invalid username")
-    getusername()
-  }
 
   def getpin(): Int = {
     println("please Enter Pin")
