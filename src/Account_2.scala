@@ -29,5 +29,13 @@ object Account_2 {
       return "Invalid PIN format. Please enter a number between 1000 and 9999"
     }
   }
+  def checkPIN(x:Int): Boolean ={
+    if (x == PIN){
+      return true
+    }
+    else{
+      return false
+    }
+  }
 
 }
