@@ -6,17 +6,24 @@ object Main {
     def user(): Int = {
       var acc: Int = 0
       acc = Account.user.indexOf(Input.getusername())
-      if (acc == -1){
+      if (acc == -1) {
         println("invalid username")
         user()
       }
-      else{
+      else {
         return acc
       }
     }
     val acc = user()
-
-
+    PIN()
+    def PIN() {
+      if (Account.checkPIN(Input.getpin(), acc)) {
+      }
+      else {
+        PIN()
+      }
+    }
+    var o: Int = Input.Option()
 
   }
 }
