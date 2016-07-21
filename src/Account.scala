@@ -1,13 +1,15 @@
+import scala.collection.mutable.ListBuffer
+
 /**
   * Created by parshah on 21-Jul-16.
   */
-object Account_2 {
-  var amount: BigInt = 0
-  var user: String = "user2"
-  var PIN: Int = 9999
+object Account {
+  var amount: ListBuffer[BigInt] = ListBuffer(0,0,0,0,0)
+  var user: ListBuffer[String] = ListBuffer("user1","user2","user3","user4","user5")
+  var PIN: ListBuffer[Int] = ListBuffer()
 
-  def view_amount(): BigInt = {
-    return amount
+  def view_amount(i:Int): BigInt = {
+    return amount(i)
   }
 
   def deposit(x: BigInt): BigInt = {
