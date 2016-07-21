@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af50ac8-6904-4b40-947a-1d93390775f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Choose_account.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Account_2.scala" afterPath="$PROJECT_DIR$/src/Account_2.scala" />
     </list>
     <ignored path="ATM-Machine.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -473,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469091278812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added choose account object&#10;">
+      <created>1469091736283</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1469091736283</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +525,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modified account_2 for PIN check&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified account_2 for PIN check&#10;" />
+    <MESSAGE value="added choose account object&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added choose account object&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
