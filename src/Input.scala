@@ -15,6 +15,12 @@ object Input {
     return Y
   }
 
+  def Amount(): BigInt = {
+    println("please input amount")
+    return io.StdIn.readLong()
+
+  }
+
 
   def Option(): Int = {
     println("please select an option:\ntype 1 to view account balance\ntype 2 to deposit\ntype 3 to withdraw\ntype 4 to transfer to another account")
@@ -33,10 +39,7 @@ object Input {
       println("You can Withdraw From account now")
       return 3
     }
-    if (i == 4) {
-      println("You can check your balance now")
-      return 4
-    }
+
     else {
       println("please type a valid number")
       Option()
