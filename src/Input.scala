@@ -4,13 +4,17 @@
 object Input {
 
   def getusername(): String = {
-    print("please Enter user Name")
+    println("please Enter user Name")
     var X: String = io.StdIn.readLine()
     return X
   }
+  def invalid_username(): Unit ={
+    println("invalid username")
+    getusername()
+  }
 
   def getpin(): Int = {
-    print("please Enter Pin")
+    println("please Enter Pin")
     var Y: Int = io.StdIn.readInt()
     return Y
   }

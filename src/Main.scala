@@ -5,6 +5,9 @@ object Main {
   def main(args: Array[String]): Unit = {
     var acc :Int = 0
     acc = Choose_account.Choose_account(Input.getusername())
-    if (acc = 1)
+    if (acc == 0){
+      Input.invalid_username()
+    }
+
   }
 }
