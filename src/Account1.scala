@@ -3,7 +3,7 @@
   */
 object Account1 {
   var amount: BigInt = 0
-  var user: String = "user2"
+  var user: String = "user1"
   var PIN: Int = 9999
   var Z = 0
 
