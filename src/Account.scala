@@ -12,14 +12,14 @@ object Account {
     return amount(i)
   }
 
-  def deposit(x: BigInt): BigInt = {
+  def deposit(x: BigInt,i:Int): BigInt = {
     amount += x
-    amount
+    amount(i)
   }
 
-  def withdraw(x: BigInt): BigInt = {
+  def withdraw(x: BigInt,i:Int): BigInt = {
     amount -= x
-    amount
+    amount(i)
   }
 
 //  def Change_PIN(x: Int): String = {
@@ -31,8 +31,8 @@ object Account {
 //      return "Invalid PIN format. Please enter a number between 1000 and 9999"
 //    }
 //}
-  def checkPIN(x:Int): Boolean ={
-    if (x == PIN){
+  def checkPIN(x:Int,i:Int): Boolean ={
+    if (x == PIN(i)){
       return true
     }
     else{
